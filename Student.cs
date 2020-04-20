@@ -9,20 +9,24 @@ using System.Collections.Generic;
 // The student's cohort
 // The collection of exercises that the student is currently working on <------------
 
-namespace StudentExercises{
-class Student {
-  public Student(string first, string last, string slack, Cohort cohort){
-    First = first;
-    Last = last;
-    Slack = slack;
-    Cohort = cohort;
+namespace StudentExercises
+{
+  public class Student
+  {
+    public Student(string first, string last, string slack, Cohort cohort)
+    {
+      First = first;
+      Last = last;
+      Slack = slack;
+      Cohort = cohort;
+    }
+    public string First { get; set; }
+    public string Last { get; set; }
+    public string Slack { get; set; }
+    public Cohort Cohort { get; set; }
+    public List<Exercise> Exercises = new List<Exercise>();
+
+
+
   }
-  public string First{get; set;}
-  public string Last{get; set;}
-  public string Slack{get; set;}
-  public Cohort Cohort{get; set;}
-
-  
-
-}
 }
