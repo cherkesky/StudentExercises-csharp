@@ -9,7 +9,7 @@ using System.Collections.Generic;
 // The student's cohort
 // The collection of exercises that the student is currently working on <------------
 
-namespace StudentExcercises{
+namespace StudentExercises{
 class Student {
   public Student(string first, string last, string slack, Cohort cohort){
     First = first;

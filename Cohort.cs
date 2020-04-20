@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace StudentExcercises{
+namespace StudentExercises{
 class Cohort {
 public Cohort(string name){
 Name=name;
