@@ -12,7 +12,7 @@ using System.Collections.Generic;
 namespace StudentExcercises{
 class Student {
   public Student(string first, string last, string slack, Cohort cohort){
-   First = first;
+    First = first;
     Last = last;
     Slack = slack;
     Cohort = cohort;
