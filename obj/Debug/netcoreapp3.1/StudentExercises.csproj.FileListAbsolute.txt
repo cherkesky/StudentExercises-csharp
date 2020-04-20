@@ -1,0 +1,12 @@
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.csprojAssemblyReference.cache
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.csproj.CoreCompileInputs.cache
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.AssemblyInfoInputs.cache
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.AssemblyInfo.cs
+/Users/cherkesky/workspace/csharp/StudentExercises/bin/Debug/netcoreapp3.1/StudentExercises.deps.json
+/Users/cherkesky/workspace/csharp/StudentExercises/bin/Debug/netcoreapp3.1/StudentExercises.runtimeconfig.json
+/Users/cherkesky/workspace/csharp/StudentExercises/bin/Debug/netcoreapp3.1/StudentExercises.runtimeconfig.dev.json
+/Users/cherkesky/workspace/csharp/StudentExercises/bin/Debug/netcoreapp3.1/StudentExercises.dll
+/Users/cherkesky/workspace/csharp/StudentExercises/bin/Debug/netcoreapp3.1/StudentExercises.pdb
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.dll
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.pdb
+/Users/cherkesky/workspace/csharp/StudentExercises/obj/Debug/netcoreapp3.1/StudentExercises.genruntimeconfig.cache
