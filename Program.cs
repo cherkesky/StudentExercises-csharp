@@ -23,6 +23,7 @@ namespace StudentExercises
       Student DouieN = new Student("Douie", "Notheen", "@DoesNothing", Day36);
 
       Instructor JoeS = new Instructor("Joe", "Shepherd", "joeshep", "jokes", Day36);
+      Instructor SteveB = new Instructor("Steve", "Brownlee", "tech", "@coach", Day37);
 
       JoeS.AssignExercise(ChickenMonkey, HoldenP);
       JoeS.AssignExercise(GlassdalePD, HoldenP);
@@ -31,34 +32,28 @@ namespace StudentExercises
       JoeS.AssignExercise(GlassdalePD, GuyC);
 
 
-      // ***************************** Phase 2 *****************************
-      List<Student> students = new List<Student>() {
-        GuyC,
-        DanielF,
-        HoldenP,
-        MattC,
-        DouieN
-    };
+    //   List<Student> students = new List<Student>() {
+    //     GuyC,
+    //     DanielF,
+    //     HoldenP,
+    //     MattC,
+    //     DouieN
+    // };
+    //   List<Exercise> exercises = new List<Exercise>() {
+    //     ChickenMonkey,
+    //     PlanYourHeist,
+    //     GlassdalePD,
+    //     Nutshell
+    // };
+    //  List<Instructor> instructors = new List<Instructor>(){
+    //      JoeS
+    //  };
 
-      List<Exercise> exercises = new List<Exercise>() {
-        ChickenMonkey,
-        PlanYourHeist,
-        GlassdalePD,
-        Nutshell
-    };
+    // List<Cohort> cohorts = new List<Cohort>(){
+    //     Day36,
+    //     Day37
+    // };
 
-     List<Instructor> instructors = new List<Instructor>(){
-         JoeS
-     };
-
-
-    List<Cohort> cohorts = new List<Cohort>(){
-        Day36,
-        Day37
-    };
-    
-      // ***************************** Phase 2 *****************************
-      Instructor SteveB = new Instructor("Steve", "Brownlee", "tech", "@coach", Day37);
 
       SteveB.AssignExercise(Nutshell, MattC);
       SteveB.AssignExercise(ChickenMonkey, MattC);
@@ -99,6 +94,7 @@ namespace StudentExercises
           Console.WriteLine($"{student.First} is working on the {exercise.Name} {exercise.Language} exercise in {student.Cohort.Name}.");
         }
       }
+    // // ***************************** Phase 2 *****************************
 
       var javaScriptExercises = AllExercises.Where(exercise => exercise.Language == "JavaScript");
 
@@ -146,6 +142,9 @@ namespace StudentExercises
       {
         Console.WriteLine($"There are {group.Count()} students in {group.Key}.");
       }
+    // // ***************************** Phase 2 *****************************
+
+
 
     }
   }
